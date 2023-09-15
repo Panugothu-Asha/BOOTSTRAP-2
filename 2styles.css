@@ -1,0 +1,199 @@
+
+#top_nav{
+    background-color: #daac00 !important;
+    padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255  255  255);
+    font-size: 20px;
+    padding-left: 25px;
+}
+#searchbox{
+    background-color: #fcc302;
+    color:white;
+    border: 0px;
+    border-radius: 0%;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#searchbox::placeholder{
+    color: white;
+}
+    
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0%;
+}
+@media  only screen and (max-width:768px){
+    #searchform{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        position: relative;
+        left:-20px;
+    }
+    
+}
+@media  only screen and (max-width:500px){
+    #top_nav{
+        padding: 0;
+    }
+}
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+
+
+}
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#banner-btn-1{
+    background-color: #00bec9;
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+@media  only screen and (max-width:1300px){
+    #banneertext h1{
+        font-size: 50px;
+    }
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+@media  only screen and (max-width:900px){
+    #banneertext h1{
+        font-size: 40px;
+    }
+    #bannerimg img{
+        padding-top: 70px;
+    }
+}
+/*service*/
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    color: rgb(255  255  255);
+    background-color:#fcc302;
+    border: 2px solid #fcc302;
+}
+#service-img{
+    padding: 5%;
+}
+@media  only screen and (max-width:768px){
+    #sevrice-img{
+        padding: 10%;
+    }
+}
+
+#counter-section{
+    background-image: url("dog3.jpg");
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size:cover;
+}
+#counter-icon{
+    font-size: 70px;
+}
+@media  only screen and (max-width:500px){
+    #counter-icon{
+        font-size: 50px;
+    } 
+}
+
+
+#blog{
+    padding: 70px 0;
+}
+.article-det{
+    padding: 15px;
+    border: 1px solid rgb(185,185,185);
+    border-top: 0;
+}
+.art-link , .art-date{
+    color: #00bec9;
+}
+
+
+/*footer*/
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer p {
+    color: white;
+    text-decoration: none;
+}
+#footer h1{
+    color: white;
+    text-decoration: none;
+}
+#footer-searchbox{
+background-color: #fcc302;
+color: white;
+border: 0;
+padding: 15px;
+width: 100%;
+max-width: 300px;
+position: relative;
+left: 10px;
+}
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-btn{
+background-color: #00bec9;
+color:white;border: 0;
+border-radius: 0%;
+padding: 10px 40px;
+}
+.social-icon{
+    font-size: 35px;
+    padding-left: 5px;
+}
+@media  only screen and (max-width:1150px){
+    #footer-searchbox{
+        max-width: 200px;
+    } 
+}
+@media  only screen and (max-width:768px){
+    #footer-searchbox{
+        max-width: 120px;
+    } 
+}
+@media  only screen and (max-width:500px){
+    #footer-searchbox{
+        max-width: 200px;
+    } 
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h1{
+       padding-top: 50px;
+    }
+}
